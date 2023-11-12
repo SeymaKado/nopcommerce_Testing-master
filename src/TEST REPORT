@@ -1,0 +1,61 @@
+TEST REPORT
+
+Proje: "nopcommerce" Web Sitesi Testleri
+
+Versiyon: 1.0.0
+
+Tarih: 2023-09-22
+
+Test Sonucu URL: http://localhost:63342/nopcommerce_Testing/test-output/emailable-report.html?_ijt=m0lmkc0v15cfhsbho11k5crhvn&_ij_reload=RELOAD_ON_SAVE
+
+QA Lead:
+    Burhan Şengül
+
+Collaborators:
+    Fatihhan Karahanlı, Ramazan İnce, Zafer Cansız, Şeyma Askerzade
+
+Testler:
+    TC_01_Reg: Bir kullanıcının web sitesine kayıt olma süreci
+    TC_02_Login: Bir kullanıcının web sitesine giriş yapabilme süreci
+    TC_03_Login: Negatif ve pozitif login kombinasyonları
+    TC_04_TabMenu01: Web sitesinin tab menüsünün doğru görüntülenmesi ve işlevselliği
+    TC_04_TabMenu02: Web sitesinin tab menüsünün altında bulunan ürünlerin doğru görüntülenmesi
+    TC_05_Gift01: Bir kullanıcının web sitesinden hediye siparişi verme süreci
+    TC_06_Order01: Bir kullanıcının web sitesinden bilgisayar siparişi verme süreci
+    TC_07_Search01: Bir kullanıcının web sitesinden parametreli arama yapma süreci
+
+Sonuçlar:
+    Tüm testler beklenildiği gibi geçti. TC_04_TabMenu01 ve TC_04_TabMenu02 test case'leri aynı test metodu
+    içerisinde yapıldı. Beklenen tüm sonuçlar doğrulandı.
+
+Ayrıntılar:
+    TC_01_Reg: Bir kullanıcının web sitesine kayıt olma süreci başarıyla tamamlandı. Kullanıcı, web sitesine kayıt
+sayfasına erişebildi, tüm gerekli bilgileri doğru ve eksiksiz bir şekilde girebildi ve kaydı başarıyla tamamlandı.
+    TC_02_Login: Bir kullanıcının web sitesine giriş yapabilme süreci başarıyla tamamlandı. Kullanıcı, web sitesine
+oturum açma sayfasına erişebildi, geçerli bir e-posta adresi ve şifre girdi ve giriş yapabildi.
+    TC_03_Login: Negatif ve pozitif login kombinasyonları başarıyla test edildi. Kullanıcının boş, geçersiz veya eksik
+bilgilerle giriş yapmayı denediği durumlarda, doğru bilgilerle giriş yaptığında ve oturum açtıktan sonra web sitesinin
+ana sayfasına yönlendirildiği doğrulandı.
+    TC_04_TabMenu01: Web sitesinin tab menüsünün doğru görüntülendiği ve işlevselliği doğrulandı. Tab menüsünün doğru
+şekilde açıldığı, doğru başlıklara sahip olduğu ve her bir tab'ın doğru sayfayı görüntülediği doğrulandı.
+    TC_04_TabMenu02: Web sitesinin tab menüsünün altında bulunan ürünlerin doğru görüntülendiği doğrulandı. Her bir
+tab'ın altında bulunan ürünlerin doğru başlıklara, resimlere ve fiyatlara sahip olduğu doğrulandı.
+    TC_05_Gift01: Bir kullanıcının web sitesinden hediye siparişi verme süreci başarıyla tamamlandı. Kullanıcı,
+hediye sayfasına erişebildi, doğru hediyeyi seçebildi, doğru miktarı girdi ve siparişini başarıyla verebildi.
+    TC_06_Order01: Bir kullanıcının web sitesinden bilgisayar siparişi verme süreci başarıyla tamamlandı. Kullanıcı,
+bilgisayar sayfasına erişebildi, doğru bilgisayarı seçebildi, doğru miktarı girdi ve siparişini başarıyla verebildi.
+    TC_07_Search01: Bir kullanıcının web sitesinden parametreli arama yapma süreci başarıyla tamamlandı. Kullanıcının
+    arama kutusuna doğru arama terimlerini girdiğinde, doğru sonuçların görüntülendiği doğrulandı.
+
+Sonuç:
+    Tüm testler beklenildiği gibi geçti. Web sitesinin kullanıcı kayıt, giriş, arama, sipariş verme gibi
+temel işlevleri düzgün çalışıyor.
+
+Kullanılan Araçlar:
+    Windows 10/11
+    JDK 1.8SE
+    İntelij IDEA
+    org.seleniumhq.selenium:selenium-java:4.11.0
+    org.slf4j:slf4j-nop:1.7.30
+    commons-io:commons-io:2.11.0
+    org.testng:testng:6.14.3

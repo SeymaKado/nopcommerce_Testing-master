@@ -1,0 +1,62 @@
+README
+
+Proje Açıklaması: Bu proje, bir e-ticaret web sitesinin kullanıcı kayıt, giriş, arama, sipariş verme gibi temel
+işlevlerini kapsayan bir dizi test senaryosu içerir.
+
+Testler:
+TC_01_Reg
+Bu test, bir kullanıcının web sitesine kayıt olma sürecini kapsar. Test, kullanıcının web sitesinin kayıt sayfasına
+erişebildiğinden, tüm gerekli bilgileri doğru ve eksiksiz bir şekilde girebildiğini ve kaydının başarıyla tamamlandığından emin olur.
+
+TC_02_Login
+Bu test, bir kullanıcının web sitesine giriş yapabilme sürecini kapsar. Test, kullanıcının web sitesinin oturum açma
+sayfasına erişebildiğinden, geçerli bir e-posta adresi ve şifre girdiğinden ve giriş yapabildiğinden emin olur.
+
+TC_03_Login
+Bu test, negatif ve pozitif login kombinasyonlarını kapsar. Test, kullanıcının boş, geçersiz veya eksik bilgilerle
+giriş yapmayı denediğinde, doğru bilgilerle giriş yaptığında ve oturum açtıktan sonra web sitesinin ana sayfasına yönlendirildiğinden emin olur.
+
+TC_04_TabMenu01
+Bu test, web sitesinin tab menüsünün doğru görüntülendiğini ve işlevselliğini kapsar. Test, tab menüsünün doğru şekilde
+açıldığını, doğru başlıklara sahip olduğunu ve her bir tab'ın doğru sayfayı görüntülediğini doğrular.
+
+TC_04_TabMenu02
+Bu test, web sitesinin tab menüsünün altında bulunan ürünlerin doğru görüntülendiğini kapsar. Test, her bir tab'ın
+altında bulunan ürünlerin doğru başlıklara, resimlere ve fiyatlara sahip olduğunu doğrular.
+
+TC_05_Gift01
+Bu test, bir kullanıcının web sitesinden hediye siparişi verme sürecini kapsar. Test, kullanıcının hediye sayfasına
+erişebildiğinden, doğru hediyeyi seçebildiğinden, doğru miktarı girdiğinden ve siparişini başarıyla verebildiğinden emin olur.
+
+TC_06_Order01
+Bu test, bir kullanıcının web sitesinden bilgisayar siparişi verme sürecini kapsar. Test, kullanıcının bilgisayar
+sayfasına erişebildiğinden, doğru bilgisayarı seçebildiğinden, doğru miktarı girdiğinden ve siparişini başarıyla verebildiğinden emin olur.
+
+TC_07_Search01
+Bu test, bir kullanıcının web sitesinden parametreli arama yapma sürecini kapsar. Test, kullanıcının arama kutusuna
+doğru arama terimlerini girdiğinde, doğru sonuçların görüntülendiğinden emin olur.
+
+Test Çıktıları
+Testlerin başarılı bir şekilde tamamlanması durumunda, web sitesinin kullanıcı kayıt, giriş, arama, sipariş verme gibi
+temel işlevlerinin düzgün çalıştığından emin olunacaktır.
+
+Gereksinimler:
+- Windows 10/11
+- JDK 1.8SE
+- İntelij IDEA
+- org.seleniumhq.selenium:selenium-java:4.11.0
+- org.slf4j:slf4j-nop:1.7.30
+- commons-io:commons-io:2.11.0
+- org.testng:testng:6.14.3
+
+Sürüm:
+1.0.0
+
+QA Lead:
+Burhan Şengül : burhseng@gmail.com
+
+Collaborators:
+Şeyma Kado : 4seyma@gmail.com
+Fatihhan Karahanlı : fatihhan.karahanli@gmail.com
+Ramazan İnce : inceliramazan80@gmail.com
+Zafer Cansız : zfrcnsz1@gmail.com

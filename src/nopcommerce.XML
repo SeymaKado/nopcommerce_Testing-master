@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Nocommerce_TestSuite">
+
+    <test name="Nocommerce_SmokeTest">
+        <groups>
+            <run>
+                <include name="Smoke"> </include>
+            </run>
+        </groups>
+        <classes>
+            <class name="SmokeTestRunner"> </class>
+        </classes>
+    </test>
+
+    <test name="Nocommerce_RegressionTest">
+        <groups>
+            <run>
+                <include name="Regression"> </include>
+            </run>
+        </groups>
+        <classes>
+            <class name="RegressionTestRunner">
+                <parameter name="keyword" value="Adobe Photoshop CS4"> </parameter>
+            </class>
+        </classes>
+    </test>
+
+</suite>
